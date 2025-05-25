@@ -51,6 +51,7 @@ Traversa/
 ---
 
 🎨 Customization Ideas
+
 -Add animation effects using JavaScript or CSS transitions
 -Connect to a real backend (Firebase, Node.js, etc.)
 -Add dark mode toggle
