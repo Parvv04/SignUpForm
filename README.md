@@ -24,8 +24,8 @@ Traversa/
 ├── style.css # All styles for layout and design
 ├── login.html # Fun troll page for 'Already have an account?'
 └── images/
-├── bg.png # Background image for sidebar
-└── logo.png # Logo icon for brand
+ ├── bg.png # Background image for sidebar
+ └── logo.png # Logo icon for brand
 ```
 
 ---
