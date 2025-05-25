@@ -50,7 +50,7 @@ Traversa/
 
 ---
 
-🎨 Customization Ideas
+## 🎨 Customization Ideas
 
 -Add animation effects using JavaScript or CSS transitions
 
