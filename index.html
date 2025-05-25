@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up Form</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="logo-container">
+  <img src="images/logo.png" alt="Traversa Logo" class="logo" />
+  <h1 class="logo-text">Traversa</h1>
+</div>
+
+      <p class="credit">Photo by sanctumdigital on Pixabay</p>
+    </div>
+
+    <div class="form-section">
+      <div class="form-header">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+        <p>Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+
+      <form action="#" method="post" class="signup-form">
+        <fieldset>
+          <legend>Let's do this!</legend>
+
+          <div class="input-row">
+            <div class="input-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" required />
+            </div>
+            <div class="input-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" required />
+            </div>
+          </div>
+
+          <div class="input-row">
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="input-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+          </div>
+
+          <div class="input-row">
+            <div class="input-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+            <div class="input-group">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" id="confirm-password" name="confirm-password" required />
+            </div>
+          </div>
+        </fieldset>
+
+        <button type="submit">Create Account</button>
+      </form>
+
+      <p class="fake-success" id="success-message" style="display: none;">
+  🎉 Welcome aboard, dreamer! You’ve successfully signed up for absolutely nothing!
+</p>
+
+
+      <p class="login-link">Already have an account? <a href="login.html">Log in</a></p>
+    </div>
+  </div>
+  <script>
+  const form = document.querySelector(".signup-form");
+  const message = document.getElementById("success-message");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent actual form submission
+    message.style.display = "block"; // Show the fun message
+    form.reset(); // Optional: Clear the form
+  });
+</script>
+
+</body>
+</html>
