@@ -62,7 +62,7 @@ Traversa/
 
 ---
 
-###🙃 Disclaimer
+### 🙃 Disclaimer
 ---
 
 This website is purely for educational and entertainment purposes. It doesn’t actually create accounts — unless you imagine it really hard.
